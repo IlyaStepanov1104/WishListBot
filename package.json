@@ -4,6 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "bot_start": "pm2 start index.js --name budget-bot",
+    "bot_stop": "pm2 stop budget-bot",
+    "bot_restart": "pm2 restart budget-bot",
+    "bot_logs": "pm2 logs budget-bot",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -14,5 +19,11 @@
   "bugs": {
     "url": "https://github.com/IlyaStepanov1104/WishListBot/issues"
   },
-  "homepage": "https://github.com/IlyaStepanov1104/WishListBot#readme"
+  "homepage": "https://github.com/IlyaStepanov1104/WishListBot#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "lodash": "^4.17.21",
+    "node-telegram-bot-api": "^0.66.0",
+    "pm2": "^5.4.3"
+  }
 }
