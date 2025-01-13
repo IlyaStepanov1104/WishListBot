@@ -1,0 +1,18 @@
+[
+  {
+    "id": 2,
+    "name": "Палетка теней \\(03\\)",
+    "image": "data\\images\\file_1.jpg",
+    "link": "https://goldapple.ru/19000328874-shadow-palette",
+    "price": 3111,
+    "reserved": null
+  },
+  {
+    "id": 3,
+    "name": "Писька",
+    "image": "data\\images\\file_2.jpg",
+    "link": "Хихихи",
+    "price": "10 рублей",
+    "reserved": null
+  }
+]
