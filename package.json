@@ -5,10 +5,10 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "bot_start": "pm2 start src/index.ts --name budget-bot",
-    "bot_stop": "pm2 stop budget-bot",
-    "bot_restart": "pm2 restart budget-bot",
-    "bot_logs": "pm2 logs budget-bot",
+    "bot_start": "pm2 start src/index.ts --name wishlist --interpreter ts-node -- --loader ts-node/esm ",
+    "bot_stop": "pm2 stop wishlist",
+    "bot_restart": "pm2 restart wishlist",
+    "bot_logs": "pm2 logs wishlist",
     "start": "node --loader ts-node/esm src/index.ts"
   },
   "repository": {
